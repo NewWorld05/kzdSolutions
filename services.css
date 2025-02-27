@@ -1,0 +1,733 @@
+body {
+    background-color: #F7F6F6;
+    overflow-x: hidden;
+}
+
+.navbar {
+    transition: background-color 0.3s, top 0.3s;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 0;
+    background-color: transparent;
+                overflow-x: hidden;
+
+}
+
+.navbar.scrolled {
+    background-color: #000D51;
+                overflow-x: hidden;
+
+}
+
+.navbar-nav {
+    margin: auto;
+                overflow-x: hidden;
+
+}
+
+.get-in-touch {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 15px;
+    color: white;
+    transition: 0.3s;
+                overflow-x: hidden;
+
+}
+
+.get-in-touch:hover {
+    background-color: #e68900;
+                overflow-x: hidden;
+
+}
+
+/* Hero Section */
+.banner-section {
+    position: relative;
+    height: 100vh;
+    background: url(./images/Services-banner.jpg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+                overflow-x: hidden;
+
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "AllertaStencil-Regular", sans-serif;
+
+}
+
+
+/* Second Section */
+
+.services-heights {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000d51;
+    padding: 50px 10%;
+    color: white;
+  }
+  
+  .heights-content {
+    width: 45%;
+  }
+  
+  .heights-heading {
+    /* font-size: 32px;*/
+    font-weight: bold;
+    /*margin-bottom: 10px; */
+    color: #ffffff;
+    text-align: left;
+    font-family: "AllertaStencil-Regular", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+    transform-origin: 0 0;
+    /* transform: rotate(0deg) scale(-1, 1); */
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "AllertaStencil-Regular", sans-serif;
+  }
+  
+  .heights-btn {
+    display: inline-block;
+    background: #2460fd;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .video-container {
+    width: 50%;
+    position: relative;
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 10px;
+    border-color: #ffffff;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  
+  .video-placeholder {
+    width: 50%;
+    height: 350px;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+
+  /* How we help you Section */
+
+.what-services-do-we-offer-for-your-business,
+.what-services-do-we-offer-for-your-business * {
+  box-sizing: border-box;
+}
+.what-services-do-we-offer-for-your-business {
+  background: #ffffff;
+  padding: 6px 132px 120px 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 769px;
+  position: relative;
+}
+.banner2 {
+  background: #ffffff;
+  padding: 40px 182px 10px 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1230px;
+  position: relative;
+}
+.how-we-help-your-business {
+  color: #000d51;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.img {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.young-diverse-team-car-factory-260-nw-2072431919-1 {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.text {
+  background: #ffffff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.lean-manufacturing-consulting {
+  color: #000d51;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.includes-methodologies-like-5-s-kaizen-and-kanban-systems-that-improve-efficiency-and-promote-continuous-improvement-culture {
+  color: rgba(0, 13, 81, 0.6);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 54px;
+  text-overflow: ellipsis;
+  overflow: visible;
+}
+.pexels-luis-gomes-166706-546819 {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.software-development {
+  color: #000d51;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.specializes-in-custom-applications-websites-and-software-solutions-tailored-to-client-needs {
+  color: rgba(0, 13, 81, 0.6);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  width: 357px;
+  height: 57px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.desk-2905361-1280 {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.scaling-and-automation {
+  color: #000d51;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.designing-scalable-systems-that-incorporate-automation-to-enhance-productivity {
+  color: rgba(0, 13, 81, 0.6);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 54px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+/* Products banner Section*/
+
+.banner-products,
+.banner-products * {
+  box-sizing: border-box;
+}
+.banner-products {
+  background: #000d51;
+  padding: 40px 182px 40px 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.our-products {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 400;
+  position: relative;
+  width: 684px;
+}
+
+/* Products Section*/
+
+.latest-projects,
+.latest-projects * {
+  box-sizing: border-box;
+  
+}
+.latest-projects {
+  padding: 60px 80px 120px 86px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.cards-prod {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 490px;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.card-prod {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 30%;
+  position: relative;
+  border: 1px solid #ccc;
+}
+.img {
+  background: #ffffff;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.blue-plain-watercolor-stationery-a-4-document-2 {
+  width: 221px;
+  height: 275px;
+  position: absolute;
+  left: 95px;
+  top: 22px;
+  object-fit: cover;
+}
+.text {
+  background: #ffffff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.kzd-cares {
+  color: #000d51;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.health-information-management-system-connecting-stakeholders-and-enabling-real-time-decision-making-solves-inefficiencies-with-automation-transparency-and-trust {
+  color: rgba(0, 13, 81, 0.6);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 74px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.card2-prod {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /*flex-shrink: 0;*/
+  flex: 1;
+  overflow: hidden;
+  width: 30%;
+  height: 495px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.blue-plain-watercolor-stationery-a-4-document-1 {
+  width: 264px;
+  height: 267px;
+  position: absolute;
+  left: 71px;
+  top: 53px;
+  object-fit: cover;
+}
+.text2 {
+  background: #ffffff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 160px;
+  position: relative;
+}
+.dc-delivery {
+  color: #000d51;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.dc-delivery-app-enhances-logistics-efficiency-in-the-competitive-food-delivery-market-serves-an-underdeveloped-regional-market-with-high-growth-potential {
+  color: rgba(0, 13, 81, 0.6);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 108px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.img2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 405px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.schoolie-logo {
+  width: 391px;
+  height: 267px;
+  position: absolute;
+  left: 7px;
+  top: 26px;
+  object-fit: cover;
+}
+.schoolie {
+  color: #000d51;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.empowering-schools-through-seamless-management-and-admissions {
+  color: rgba(0, 13, 81, 0.6);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 59px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+  
+
+
+
+
+  /* Clients Section */
+
+.banner-clients,
+.banner-clients * {
+  box-sizing: border-box;
+}
+.banner-clients {
+  background: #000d51;
+  padding: 40px 182px 40px 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.clients {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 400;
+  position: relative;
+  width: 684px;
+}
+
+
+/* Logos Section */
+
+.logos,
+.logos * {
+  box-sizing: border-box;
+}
+.logos {
+  background: #ffffff;
+  padding: 60px 120px 74px 92px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 238px;
+  position: relative;
+}
+.duys {
+  flex-shrink: 0;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  object-fit: cover;
+}
+._1-db-28-f-67-bc-46-400-f-a-714-dc-674683-a-04-e-1 {
+  flex-shrink: 0;
+  width: 119px;
+  height: 98px;
+  position: relative;
+  object-fit: cover;
+}
+._01-home-v-1-dark-1-1 {
+  flex-shrink: 0;
+  width: 116px;
+  height: 65px;
+  position: relative;
+  object-fit: cover;
+}
+.computer-gardens-1 {
+  flex-shrink: 0;
+  width: 237.38px;
+  height: 98px;
+  position: relative;
+  object-fit: cover;
+}
+.za-gear-1 {
+  flex-shrink: 0;
+  width: 223px;
+  height: 128px;
+  position: relative;
+  object-fit: cover;
+}
+._250-x-250-keits-logo-1 {
+  flex-shrink: 0;
+  width: 130px;
+  height: 128px;
+  position: relative;
+  object-fit: cover;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+    font-size: 14px;
+    background-color: #000D51;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-content {
+        margin-left: 0;
+    }
+
+    .about-image img {
+        max-width: 100%;
+    }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+/* Team Section */
+.team {
+    padding: 60px 0;
+    background-color: #F7F6F6;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    width: 100%;
+    max-width: 25%;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.team-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team-card h5 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #000D51;
+}
+
+.team-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.team-card .btn {
+    margin-top: 15px;
+    background-color: #2460FD;
+    color: white;
+    border-radius: 5px;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+

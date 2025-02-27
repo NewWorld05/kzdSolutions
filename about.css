@@ -1,0 +1,366 @@
+body {
+    background-color: #F7F6F6;
+    overflow-x: hidden;
+}
+
+.navbar {
+    transition: background-color 0.3s, top 0.3s;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 0;
+    background-color: transparent;
+                overflow-x: hidden;
+
+}
+
+.navbar.scrolled {
+    background-color: #000D51;
+                overflow-x: hidden;
+
+}
+
+.navbar-nav {
+    margin: auto;
+                overflow-x: hidden;
+
+}
+
+.get-in-touch {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 15px;
+    color: white;
+    transition: 0.3s;
+                overflow-x: hidden;
+
+}
+
+.get-in-touch:hover {
+    background-color: #e68900;
+                overflow-x: hidden;
+
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url(./images/about.jpg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+                overflow-x: hidden;
+
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+.hero-button {
+    padding: 12px 25px;
+    background-color: #2460FD;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+}
+
+.hero-button:hover {
+    background-color: #1a4cd3;
+
+}
+
+
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #000D51;
+                overflow-x: hidden;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-content {
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #ddd;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2460FD;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.learn-more:hover {
+    background-color: #1a4cd3;
+}
+
+
+/* Winning Roadmap */
+.our-team-of-experts,
+.our-team-of-experts * {
+  box-sizing: border-box;
+  width: 100%;
+}
+.our-team-of-experts {
+  padding: 60px 14px 60px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1076px;
+  position: relative;
+}
+.the-winning-roadmap {
+  color: #000d51;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.frame-453 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 539px;
+  position: relative;
+}
+
+
+
+
+
+/* Clients Section */
+
+.banner-clients,
+.banner-clients * {
+  box-sizing: border-box;
+}
+.banner-clients {
+  background: #000d51;
+  padding: 40px 182px 40px 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.clients {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 400;
+  position: relative;
+  width: 684px;
+}
+
+
+/* Logos Section */
+
+.logos,
+.logos * {
+  box-sizing: border-box;
+}
+.logos {
+  background: #ffffff;
+  padding: 60px 120px 74px 92px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 238px;
+  position: relative;
+}
+.duys {
+  flex-shrink: 0;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  object-fit: cover;
+}
+._1-db-28-f-67-bc-46-400-f-a-714-dc-674683-a-04-e-1 {
+  flex-shrink: 0;
+  width: 119px;
+  height: 98px;
+  position: relative;
+  object-fit: cover;
+}
+._01-home-v-1-dark-1-1 {
+  flex-shrink: 0;
+  width: 116px;
+  height: 65px;
+  position: relative;
+  object-fit: cover;
+}
+.computer-gardens-1 {
+  flex-shrink: 0;
+  width: 237.38px;
+  height: 98px;
+  position: relative;
+  object-fit: cover;
+}
+.za-gear-1 {
+  flex-shrink: 0;
+  width: 223px;
+  height: 128px;
+  position: relative;
+  object-fit: cover;
+}
+._250-x-250-keits-logo-1 {
+  flex-shrink: 0;
+  width: 130px;
+  height: 128px;
+  position: relative;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/* Footer */
+.footer {
+    font-size: 14px;
+    background-color: #000D51;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-content {
+        margin-left: 0;
+    }
+
+    .about-image img {
+        max-width: 100%;
+    }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        width: 80%;
+    }
+}
