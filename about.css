@@ -46,7 +46,7 @@ body {
 .hero-section {
     position: relative;
     height: 100vh;
-    background: url(./images/about.jpg) no-repeat center center/cover;
+    background: url(./images/discuss-sofware.jpg) no-repeat center center/cover;
     color: white;
     text-align: center;
                 overflow-x: hidden;
@@ -67,6 +67,7 @@ body {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
+    font-family: "AllertaStencil-Regular", sans-serif;
 
 }
 
@@ -94,8 +95,58 @@ body {
 
 
 
+
+/*Second section*/
+.story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  /* background-color:blueviolet; */
+              overflow-x: hidden;
+
+}
+
+.story-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.story-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  
+}
+
+.story-content {
+  max-width: 600px;
+  margin-left: 30px;
+}
+
+.story-content h2 {
+  font-size: 32px;
+  color: #000D51;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.story-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000D51;
+  margin-bottom: 20px;
+}
+
+
+
+
 /* About Section */
-.about {
+.about-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -173,11 +224,13 @@ body {
 }
 
 
+
 /* Winning Roadmap */
 .our-team-of-experts,
 .our-team-of-experts * {
   box-sizing: border-box;
   width: 100%;
+  
 }
 .our-team-of-experts {
   padding: 60px 14px 60px 13px;
@@ -189,6 +242,7 @@ body {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
+  width: 100%; /* Ensure responsiveness */
 }
 .text {
   display: flex;
@@ -197,7 +251,8 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 1076px;
+  /* width: 1076px; */
+  max-width: 90%; /* Use percentage instead of fixed width */
   position: relative;
 }
 .the-winning-roadmap {
@@ -209,20 +264,25 @@ body {
   position: relative;
   align-self: stretch;
   text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+  /* overflow: hidden;
+  white-space: nowrap; */
+  overflow: visible; /* Ensure text is fully shown */
+  white-space: normal; /* Allow wrapping if needed */
+  max-width: 100%; /* Prevent clipping */
 }
 .frame-453 {
   display: flex;
   flex-direction: row;
   gap: 24px;
   align-items: flex-start;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  justify-content: center; /* Center image properly */
   flex-wrap: wrap;
   align-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
-  height: 539px;
+  /* height: 539px; */
+  height: auto; /* Adjust height dynamically */
   position: relative;
 }
 
@@ -324,15 +384,475 @@ body {
 
 
 
-
 /* Footer */
-.footer {
-    font-size: 14px;
-    background-color: #000D51;
-    color: white;
-    text-align: center;
-    padding: 20px;
+
+.footer,
+.footer * {
+  box-sizing: border-box;
 }
+.footer {
+  background: #000d51;
+  padding: 66px 72px 7px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 291px;
+  position: relative;
+}
+.group-20 {
+  flex-shrink: 0;
+  width: 1040px;
+  height: 200px;
+  position: static;
+}
+.group-18 {
+  width: 1040px;
+  height: 200px;
+  position: static;
+}
+.frame-428 {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1040px;
+  height: 200px;
+  position: absolute;
+  left: 200px;
+  top: 66px;
+}
+.group-15 {
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+}
+
+.logo-text-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 196px;
+  height: auto; /* Change this to auto to adjust based on content */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo-f {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  margin-right: 10px;
+}
+.whats-app-image-2025-01-23-at-15-32-18-removebg-preview-1 {
+  flex-shrink: 0;
+  width: 76px;
+  height: auto;
+  max-height: 85px;
+  position: relative;
+  object-fit: contain;
+}
+.kzd-solutions {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-175 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-348 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.useful-links {
+  color: #f7f6f6;
+  text-align: left;
+  font-family: "AlbertSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.frame-174 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.about {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.services {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.contacts {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  position: relative;
+  width: 85px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.group-21 {
+  flex-shrink: 0;
+  width: 139px;
+  height: 106px;
+  position: static;
+}
+.frame-3482 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 139px;
+  position: absolute;
+  left: 368px;
+  top: 0px;
+}
+.address {
+  color: #f7f6f6;
+  text-align: left;
+  font-family: "AlbertSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.group-22 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 63px;
+  position: static;
+}
+.frame-1742 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 139px;
+  position: absolute;
+  left: 0px;
+  top: 43px;
+}
+.kings-park-stadium-business-center {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.group-26 {
+  flex-shrink: 0;
+  width: 224px;
+  height: 142px;
+  position: static;
+}
+.group-23 {
+  width: 224px;
+  height: 142px;
+  position: static;
+}
+.frame-484 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 224px;
+  position: absolute;
+  left: 550px;
+  top: 0px;
+}
+.group-27 {
+  flex-shrink: 0;
+  width: 207px;
+  height: 65px;
+  position: static;
+}
+.group-25 {
+  width: 207px;
+  height: 65px;
+  position: static;
+}
+.frame-485 {
+  width: 207px;
+  height: 65px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.email {
+  color: #f7f6f6;
+  text-align: left;
+  font-family: "AlbertSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.frame-1743 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 207px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 39px;
+}
+.info-kzdsolutions-co-za {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.group-24 {
+  flex-shrink: 0;
+  width: 162px;
+  height: 53px;
+  position: static;
+}
+.group-28 {
+  width: 162px;
+  height: 53px;
+  position: static;
+}
+.frame-4852 {
+  width: 162px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 89px;
+  overflow: hidden;
+}
+.phone {
+  color: #f7f6f6;
+  text-align: left;
+  font-family: "AlbertSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+._071-589-1082 {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: "AlbertSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 27.27px;
+  transform-origin: 0 0;
+  transform: rotate(-0.159deg) scale(1, 1);
+}
+.group-16 {
+  flex-shrink: 0;
+  width: 143px;
+  height: 69px;
+  position: static;
+}
+.group-162 {
+  width: 143px;
+  height: 69px;
+  position: static;
+}
+.text-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 143px;
+  position: absolute;
+  left: 817px;
+  top: 0px;
+}
+.follow-us {
+  color: #f7f6f6;
+  text-align: left;
+  font-family: "AlbertSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.group-17 {
+  flex-shrink: 0;
+  width: 141px;
+  height: 30px;
+  position: static;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 141px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  top: 39px;
+}
+.facebook-black {
+  background: #f7f6f6;
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.social-icons-black {
+  height: auto;
+  position: absolute;
+  left: 9.2px;
+  top: 6px;
+  overflow: visible;
+}
+.icons-8-linkedin-30-1 {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  position: relative;
+  object-fit: cover;
+}
+.instagram-black {
+  background: #f7f6f6;
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.instagram {
+  height: auto;
+  position: absolute;
+  left: 5.6px;
+  top: 5.6px;
+  overflow: visible;
+}
+.icons-8-tiktok-48-1 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: cover;
+}
+.text-f {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.copyright-kzd-solutions-2025 {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+
 
 /* Media Queries */
 @media (max-width: 768px) {
