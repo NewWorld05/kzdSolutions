@@ -380,7 +380,7 @@ body {
 
 /* Footer */
 
-.footer,
+.footer-container,
 .footer * {
   box-sizing: border-box;
 }

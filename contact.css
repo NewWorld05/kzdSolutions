@@ -226,7 +226,7 @@ form input, form textarea {
 
 /* Footer */
 
-.footer,
+.footer-container,
 .footer * {
   box-sizing: border-box;
 }
