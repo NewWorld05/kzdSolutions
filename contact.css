@@ -4,45 +4,59 @@ body {
 }
 
 .navbar {
-    transition: background-color 0.3s, top 0.3s;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    padding: 15px 0;
-    background-color: transparent;
-                overflow-x: hidden;
+  transition: background-color 0.3s, top 0.3s;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  /* font-weight: bold; */
+  background-color: transparent;
+              overflow-x: hidden;
 
 }
 
 .navbar.scrolled {
-    background-color: #000D51;
-                overflow-x: hidden;
+  background-color: #000D51;
+              overflow-x: hidden;
 
 }
 
 .navbar-nav {
-    margin: auto;
-                overflow-x: hidden;
+  margin: auto;
+              overflow-x: hidden;
 
 }
 
-/* .nav-link{
-  color:#333;
-} */
+.navbar-nav .nav-link {
+  font-weight: bold;
+  color: rgb(58, 14, 218); /* Change this to your preferred color */
+}
+
+.navbar-nav .nav-link:hover {
+color:#2460fd; /* Change this to the hover color you prefer */
+}
+
+.navbar.scrolled .nav-link {
+color: #FFFFFF; /* Change this to your preferred scrolled navbar color */
+}
+
 
 .get-in-touch {
-    background-color: transparent;
-    border: 1px solid white;
-    padding: 8px 15px;
-    color: white;
-    transition: 0.3s;
-                overflow-x: hidden;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 8px 15px;
+  color: white;
+  transition: 0.3s;
+              overflow-x: hidden;
 
 }
 
 .get-in-touch:hover {
-    background-color: #e68900;
-                overflow-x: hidden;
+  background-color:#2460fd;
+              overflow-x: hidden;
 
 }
 
